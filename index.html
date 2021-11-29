@@ -152,46 +152,87 @@
     </div>
   </section>
 <!--"meet the trainer" section-->
-<section id="your-trainers" class="trainers">
+<section id="your-trainers">
   <div class="flex-row">
     <h2 class="section-title primary-border">
         Meet The Trainers
     </h2>
     </div>
-    <article class="trainer">
-        <img src="run_buddy_background_image\trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron"/>
-        <div class="trainer-bio text-left">
-            <h3>Arron Stephens</h3>
-            <h4>Speed / Strength</h4>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non consectetur minima eligendi, ratione voluptatum deleniti ipsam rerum autem optio alias nihil! Minima est dignissimos autem vel nemo adipisci rem totam.
-            </p>
-        </div>
-    </article>
-    <!--second trainer bio-->
-    <article class="trainer">
-        <div class="trainer-bio text-right">
-          <h3>Joanna Gill</h3>
-          <h4>Endurance</h4>
+
+<!--First Trainer Bio-->
+<!--Problem in code, figure out why it went wrong
+<div class="trainers">
+  <div>
+      <article class="trainer">
+        <img src="run_buddy_background_image\trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+        <div class="trainer-bio">
+          <h3 class="trainer-name">Arron Stephens</h3>
+          <h4 class="trainer-role">Speed / Strength</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
             itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
           </p>
         </div>
-        <img src="run_buddy_background_image\trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
       </article>
-<!--third trainer bio-->
+      </div>
+    <div class="trainers">
+      <div>
+    <article class="trainer">
+      <img src="run_buddy_background_image\trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
+        <div class="trainer-bio">
+          <h3 class="trainer-name">Joanna Gill</h3>
+          <h4 class="trainer-role">Endurance</h4>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+            itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+          </p>
+        </div>
+      </article>
+    </div>
+<div class="trainers">
+  <div>
 <article class="trainer">
     <img src="run_buddy_background_image\trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
-    <div class="trainer-bio text-left">
-      <h3>Harry "the Headband" Smith</h3>
-      <h4>Strength</h4>
+    <div class="trainer-bio">
+      <h3 class="trainer-name">Harry "the Headband" Smith</h3>
+      <h4 class="trainer-role">Strength</h4>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
         itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
       </p>
     </div>
-  </article>
+  </article>>
+  </div>
+-->
+<!--First Trainer Bio-->
+  <div class="trainers">
+    <article class="trainer">
+      <img src="run_buddy_background_image\trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+      <div class="trainer-bio">
+        <h3 class="trainer-name">Arron Stephens</h3>
+        <h4 class="trainer-role">Speed / Strength</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!</p>
+      </div>
+    </article>
+
+<!--Second Trainer Bio-->
+<article class="trainer">
+      <img src="run_buddy_background_image\trainer-2.jpg" alt="Joanna Gill cooling off after a work out" />
+      <div class="trainer-bio">
+        <h3 class="trainer-name">Joanna Gill</h3>
+        <h4 class="trainer-role">Endurance</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!</p>
+        </div>
+      </article>
+<!--Third Trainer Bio-->
+    <article class="trainer">
+      <img src="run_buddy_background_image\trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+      <div class="trainer-bio">
+        <h3 class="trainer-name">Harry "The Headband" Smith</h3>
+        <h4 class="trainer-role">Strength</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!</p>
+      </div>
+    </article>
 </section>
 
 <!-- "reach out" section -->
@@ -218,6 +259,8 @@
         <button type="submit">Submit</button>
        </form>
     </div>
+
+    <div class="contact-info">
     <div>
       <h3>Run Buddy</h3>
       <p>
@@ -225,6 +268,7 @@
         <br />
         Let us know and we'll be happy to talk to you!
       </p>
+
       <address>
         55 Main Street <br />
         Some Town, Ca <br />
@@ -232,8 +276,7 @@
         P: 555.RUN.BUDZ (555.786.2839)<br />
         E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
       </address>
-    </div>
-  </div>
+      </div>
 </section>
   <!-- footer -->
   <footer>
